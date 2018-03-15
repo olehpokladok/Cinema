@@ -84,7 +84,6 @@ public class AdminConsol implements Console {
 					}
 				} catch (InputMismatchException ex) {
 					System.out.println("Incorrect entry.");
-					sc.next();
 				}
 			}
 				break;
