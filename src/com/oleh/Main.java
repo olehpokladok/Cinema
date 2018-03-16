@@ -13,8 +13,7 @@ public class Main {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		
-		
+
 		CinemaSerializator save = new CinemaSerializator();
 		cinema = save.deserialize();
 		System.out.println("Enter user type(admin or user): ");
