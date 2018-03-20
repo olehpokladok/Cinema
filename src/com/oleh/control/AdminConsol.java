@@ -1,5 +1,6 @@
 package com.oleh.control;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.InputMismatchException;
@@ -84,7 +85,6 @@ public class AdminConsol implements Console {
 					}
 				} catch (InputMismatchException ex) {
 					System.out.println("Incorrect entry.");
-					sc.next();
 				}
 			}
 				break;

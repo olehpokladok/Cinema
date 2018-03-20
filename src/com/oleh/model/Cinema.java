@@ -99,7 +99,7 @@ public class Cinema implements Serializable {
 		for (Hall h : hallSet) {
 			for (Session s : h.getSessionList()) {
 				if (s.getDtStart().toLocalDate().equals(date)) {
-					System.out.println(s +" " + s.getMovie());
+					System.out.println(s + " " + s.getMovie());
 				}
 			}
 		}
@@ -108,10 +108,10 @@ public class Cinema implements Serializable {
 	public void printSessionByMovie(String name) {
 		for (Hall hall : hallSet) {
 			for (Session ses : hall.getSessionList()) {
-				if(ses.getMovie().getName().equalsIgnoreCase(name)) {
-					System.out.println(ses +"- " +  hall.getName());	
+				if (ses.getMovie().getName().equalsIgnoreCase(name)) {
+					System.out.println(ses + "- " + hall.getName());
 				}
-				
+
 			}
 		}
 	}
