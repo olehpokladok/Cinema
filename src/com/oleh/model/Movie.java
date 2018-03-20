@@ -7,34 +7,31 @@ public class Movie implements Serializable {
 	private String name;
 	private int duration;
 	private String genre;
+
 	public Movie(String name, int duration, String genre) {
 		super();
 		this.name = name;
 		this.duration = duration;
 		this.genre = genre;
 	}
+
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
+
 	public int getDuration() {
 		return duration;
 	}
-	public void setDuration(int duration) {
-		this.duration = duration;
-	}
+
 	public String getGenre() {
 		return genre;
 	}
-	public void setGenre(String genre) {
-		this.genre = genre;
-	}
+
 	@Override
 	public String toString() {
 		return "Movie [name=" + name + ", duration=" + duration + ", genre=" + genre + "]";
 	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -44,6 +41,7 @@ public class Movie implements Serializable {
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -68,7 +66,4 @@ public class Movie implements Serializable {
 		return true;
 	}
 
-	
-	
-	
 }

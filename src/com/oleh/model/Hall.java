@@ -39,22 +39,13 @@ public class Hall implements Serializable {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public int getNumberPlaces() {
 		return numberPlaces;
-	}
-
-	public void setNumberPlaces(int numberPlaces) {
-		this.numberPlaces = numberPlaces;
 	}
 	
 	public List<Session> getSessionList(){
 		return sessionList;
 	}
-	
 	
 
 	@Override

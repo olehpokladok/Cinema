@@ -1,5 +1,6 @@
 package com.oleh.control;
 
+
 public class ConsolFactory {
 	
 	private static String ADMIN = "admin";
