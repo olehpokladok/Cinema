@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        log.debug("123");
+        log.debug("New session!");
         CinemaSerializator save = new CinemaSerializator();
         cinema = save.deserialize();
         System.out.println("Enter user type(admin or user): ");
